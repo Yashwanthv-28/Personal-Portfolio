@@ -1,0 +1,45 @@
+/* Spinner container */
+.sweet-loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+/* Coffee text */
+.cofee {
+  margin-top: 3em;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  font-size: 1.6em;
+  transform: translate(-50%, -50%);
+  font-family: 'Indie Flower', cursive;
+  color: #ffffff;
+  background: linear-gradient(135deg, #84fab0, #8fd3f4, #a18cd1, #fbc2eb);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: cofee 1.5s ease-in-out infinite;
+  pointer-events: none;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Flicker animation */
+@keyframes cofee {
+  0%, 100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/* Responsive for mobile */
+@media screen and (max-width: 480px) {
+  .cofee {
+    font-size: 1em;
+    top: 70%;
+  }
+}

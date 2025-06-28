@@ -1,0 +1,162 @@
+
+.home-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  min-height: 100vh;
+  gap: 4rem;
+  overflow: hidden;
+}
+
+.home-profile {
+  flex: 1;
+  max-width: 400px;
+  display: flex;
+  margin-left: 50px;
+  justify-content: center;
+}
+
+.home-content {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+}
+.home-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  position: relative;
+  display: inline-block;
+
+  background: linear-gradient(
+    135deg,
+    #ffffff,
+    #84fab0,
+    #8fd3f4,
+    #a18cd1,
+    #fbc2eb
+  );
+  background-size: 300% 300%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: diagonalGlow 8s ease-in-out infinite;
+}
+
+@keyframes diagonalGlow {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+
+.home-subheading {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  max-width: 800px;
+}
+.glass-resume-button {
+  width: 150px;
+  display: inline-flex;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 20px;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.1) inset,
+    0 0 12px rgba(0, 200, 255, 0.4), /* outer glow */
+    0 0 24px rgba(0, 200, 255, 0.2); /* soft outer spread */
+  transition: all 0.3s ease;
+}
+
+.glass-resume-button:hover {
+  transform: translateY(-4px) scale(1.05);
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.2) inset,
+    0 0 18px rgba(0, 200, 255, 0.6),
+    0 0 36px rgba(0, 200, 255, 0.3);
+}
+
+.download-icon {
+  font-size: 1.1rem;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .home-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem 1.5rem;
+  }
+
+  .home-heading {
+    font-size: 2.2rem;
+  }
+
+  .home-subheading {
+    font-size: 1.1rem;
+  }
+
+  .home-profile {
+    margin-bottom: 2rem;
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .home-heading {
+    font-size: 2.6rem;
+  }
+
+  .home-subheading {
+    font-size: 1.1rem;
+  }
+
+  .home-section {
+    flex-direction: column;
+    padding: 3rem 1.5rem;
+    text-align: center;
+  }
+
+  .home-profile {
+    margin: 0 auto 2rem auto;
+  }
+
+  .glass-resume-button {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-heading {
+    font-size: 2.1rem;
+  }
+
+  .home-subheading {
+    font-size: 1rem;
+  }
+
+  .glass-resume-button {
+    font-size: 0.95rem;
+    padding: 10px 20px;
+  }
+}
