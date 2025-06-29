@@ -1,12 +1,96 @@
-# React + Vite
+# 🚀 Developer Portfolio – React.js
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a responsive and modern **Personal Portfolio Website** built with React.js, showcasing projects, skills, and contact information. The design follows a **glassmorphism aesthetic** with smooth animations and section-based navigation to provide a seamless user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔍 Overview
 
-## Expanding the ESLint configuration
+This project is crafted to demonstrate your development skills, UI/UX sense, and technical portfolio—all in one place. The site includes:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 👋 Hero/Home section with animated intro  
+- 💼 Projects showcase with modal view  
+- ⚙️ Skills grid with animated badges  
+- 👨‍💻 About section with responsive layout  
+- 📞 Contact form & social links  
+- 🔄 Custom loading spinner with animation  
+- 🌐 Dynamic document titles on scroll  
+- 🧊 Glassmorphic modal & buttons  
+- 🪞 Section highlighting in navbar on scroll  
+
+---
+
+## 💡 Features
+
+| Feature | Description |
+|--------|-------------|
+| **React + Vite** | Fast development environment with modular components |
+| **Framer Motion** | Smooth entrance animations |
+| **Responsive Design** | Mobile-friendly and fully adaptable layout |
+| **Glassmorphism UI** | Frosted glass-inspired design throughout |
+| **Scroll Highlighting** | Navbar link highlights active section |
+| **Lazy Loading** | Improved performance by loading content when needed |
+| **SEO Optimized** | Dynamic page titles based on scroll |
+| **Animated Loader** | Fun “Making Coffee...” spinner during initial load |
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend**: React, JSX, Vite
+- **Styling**: Custom CSS, Glassmorphism
+- **Animations**: Framer Motion, CSS Keyframes
+- **Icons**: React Icons
+- **State Management**: useState, useEffect
+- **Build Tool**: Vite
+
+---
+
+## 📁 Folder Structure
+
+src/
+├── components/
+│   ├── Navbar.jsx
+│   ├── Home.jsx
+│   ├── Projects.jsx
+│   ├── About.jsx
+│   ├── Skills.jsx
+│   ├── Contact.jsx
+│   ├── Footer.jsx
+│   ├── Spinner.jsx
+│   └── GlassIcons.jsx
+├── assets/
+│   └── project images
+├── App.jsx
+├── App.css
+└── main.jsx
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/Yashwanthv-28/react-portfolio.git
+
+# Navigate into the project directory
+cd react-portfolio
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+
+
+## 🧠 Inspiration
+
+This portfolio was built to serve as a personal branding platform that reflects both technical proficiency and aesthetic sense, making it ideal for job applications and freelancing outreach.
+
+## 📬 Contact
+Feel free to connect with me:
+
+💼 https://www.linkedin.com/in/yashwanth-v-902a8630b/
+
+📧 yashwanthv652@gmail.com.com
