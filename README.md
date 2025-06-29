@@ -65,25 +65,26 @@ src/
 ├── App.css
 └── main.jsx
 
----
 
 ## 🚀 Getting Started
 
-```bash
+
 # Clone the repository
+```bash
 git clone https://github.com/Yashwanthv-28/react-portfolio.git
-
-# Navigate into the project directory
-cd react-portfolio
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
 ```
-
+# Navigate into the project directory
+```bash
+cd react-portfolio
+```
+# Install dependencies
+```bash
+npm install
+```
+# Start development server
+```bash
+npm run dev
+```
 
 ## 🧠 Inspiration
 
