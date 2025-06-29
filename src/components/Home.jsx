@@ -45,7 +45,9 @@ const Home = () => {
           A passionate Full Stack Developer blending design thinking with problem-solving. I build intuitive web solutions that don't just work—but *feel* right.
 
         </p>
-        <a href="/Personal-Portfolio/Resume.pdf" download className="glass-resume-button">
+        <a href={`${process.env.PUBLIC_URL}/Resume.pdf`}
+         download 
+         className="glass-resume-button">
           <FaDownload className="download-icon" />
           Resume
         </a>
