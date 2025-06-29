@@ -41,11 +41,11 @@ const Home = () => {
       >
         <h1 className="home-heading">Hello, I'm Yashwanth</h1>
         <p className="home-subheading">
-          Crafting Seamless Digital Experiences with Code & Creativity.<br/>
+          Crafting Seamless Digital Experiences with Code & Creativity.<br />
           A passionate Full Stack Developer blending design thinking with problem-solving. I build intuitive web solutions that don't just work—but *feel* right.
 
         </p>
-        <a href="/Resume.pdf" download className="glass-resume-button">
+        <a href="/Personal-Portfolio/Resume.pdf" download className="glass-resume-button">
           <FaDownload className="download-icon" />
           Resume
         </a>
