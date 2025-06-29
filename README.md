@@ -46,27 +46,6 @@ This project is crafted to demonstrate your development skills, UI/UX sense, and
 
 ---
 
-## 📁 Folder Structure
-
-src/
-├── components/
-│   ├── Navbar.jsx
-│   ├── Home.jsx
-│   ├── Projects.jsx
-│   ├── About.jsx
-│   ├── Skills.jsx
-│   ├── Contact.jsx
-│   ├── Footer.jsx
-│   ├── Spinner.jsx
-│   └── GlassIcons.jsx
-├── assets/
-│   └── project images
-├── App.jsx
-├── App.css
-└── main.jsx
-
----
-
 ## 🚀 Getting Started
 
 
