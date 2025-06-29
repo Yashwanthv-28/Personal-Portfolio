@@ -31,7 +31,7 @@ This project is crafted to demonstrate your development skills, UI/UX sense, and
 | **Scroll Highlighting** | Navbar link highlights active section |
 | **Lazy Loading** | Improved performance by loading content when needed |
 | **SEO Optimized** | Dynamic page titles based on scroll |
-| **Animated Loader** | Fun “Making Coffee...” spinner during initial load |
+| **Animated Loader** | Fun “Loading.. almost there” spinner during initial load |
 
 ---
 
@@ -65,23 +65,24 @@ src/
 ├── App.css
 └── main.jsx
 
+---
 
 ## 🚀 Getting Started
 
 
-# Clone the repository
+**Clone the repository**
 ```bash
 git clone https://github.com/Yashwanthv-28/react-portfolio.git
 ```
-# Navigate into the project directory
+**Navigate into the project directory**
 ```bash
 cd react-portfolio
 ```
-# Install dependencies
+**Install dependencies**
 ```bash
 npm install
 ```
-# Start development server
+**Start development server**
 ```bash
 npm run dev
 ```
